@@ -184,7 +184,7 @@ header{
     text-align: center;
 }
 p{
-    font-size: 16px;
+    font-size: 20px;
 
 }
 .card p{
@@ -304,6 +304,7 @@ width: 100%;
   line-height: 1.5em;
   color: #fff;
   padding-top: 10px;
+  margin-top: 20px;
 }
 .social-icons{
 list-style: none;
@@ -346,4 +347,24 @@ list-style: none;
 .footer-servicios li a:hover{
 text-decoration: none;
 color: var(--beige);
+}
+.col-servicios{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+h1{
+font-size: 5em;
+}
+.img-responsive{
+  width: 100%;
+  margin-right: 20px;
+}
+.col-1{
+  padding: 30px;
+  padding-right: 10%;
+  line-height: 1.8em;
+}
+.servicios i{
+  font-size: 3em;
 }
